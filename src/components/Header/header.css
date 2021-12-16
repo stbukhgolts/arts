@@ -5,7 +5,7 @@
 .header__title-container {
   display: flex;
   justify-content: space-between;
-  padding: 30px 25px;
+  padding: 40px 25px;
   color: var(--font-color);
   font-family: 'Courier New', Courier, monospace;
 }
@@ -16,14 +16,14 @@
 }
 .header__input_search::placeholder {
   color: var(--font-color);
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 100;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .header__navigation-container {
   display: flex;
-  height: 100px;
+  height: 80px;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
@@ -35,6 +35,9 @@
   flex-wrap: wrap;
 }
 
+.header__navigation-links_right {
+  justify-content: flex-end;
+}
 
 .header__logo {
   display: block;
@@ -50,10 +53,33 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  width: 200px;
+  transition: color 0.4s ease-in;
+}
+
+.header__navigation-container > ul:hover {
+  color: rgba(0, 0, 0, 0.3);
+  transition: color 0.1s ease-in;
 }
 
 .header__navigation-links_left > li,
 .header__navigation-links_right > li {
-  margin-left: 5px;
+  font-size: 14px;
   white-space: nowrap;
+  margin-top: 10px;
+}
+
+.header__navigation-links_left > li {
+  margin-right: 15px;
+}
+
+.header__navigation-links_right > li {
+  margin-left: 15px;
+}
+
+.header__navigation-links_left > li:hover,
+.header__navigation-links_right > li:hover {
+  color: black;
+  cursor: pointer;
+  transition: color 0.1s ease-in;
 }
