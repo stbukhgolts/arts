@@ -1,69 +1,82 @@
 .header {
   width: 100%;
+  padding: 0 90px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .header__title-container {
   display: flex;
   justify-content: space-between;
-  padding: 40px 25px;
+  padding: 40px 0 0;
   color: var(--font-color);
-  font-family: 'Courier New', Courier, monospace;
 }
 
 .header__input_search {
   border: none;
   outline: none;
 }
+
 .header__input_search::placeholder {
   color: var(--font-color);
   font-size: 15px;
   font-weight: 100;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 .header__navigation-container {
   display: flex;
-  height: 80px;
+  padding-top: 10px;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
-  padding: 0 25px;
+
 }
 
 .header__navigation-links_left {
   /* width: 350px; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
-.header__navigation-links_right {
+.header__navigation-links_right,
+.header__navigation_social-links {
   justify-content: flex-end;
 }
 
-.header__logo {
+/* .header__logo {
   display: block;
   height: 100%;
   object-fit: cover;
-  object-position: center;
-  transform: scale(1.5);
-}
+  object-position: bottom;
+  transform: scale(1);
+} */
 
-.header__navigation-container > ul {
+.header__navigation{
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
+  max-width: 200px;
   transition: color 0.4s ease-in;
 }
 
-.header__navigation-container > ul:hover {
+.header__navigation:hover {
   color: rgba(0, 0, 0, 0.3);
-  transition: color 0.1s ease-in;
+  transition: color .35s ease-in-out;
+  transition: fill .35s ease-in-out;
+  fill:rgba(0, 0, 0, 0.3)
 }
 
-.header__navigation-links_left > li,
-.header__navigation-links_right > li {
+.header__navigation_social-links > li:hover,
+.header__navigation-links_left > li:hover,
+.header__navigation-links_right > li:hover {
+  fill:black;
+  color: black;
+  cursor: pointer;
+  transition: color 0.1s ease-in;
+  transition: fill 0.1s ease-in;
+}
+
+.header__navigation > li {
   font-size: 14px;
   white-space: nowrap;
   margin-top: 10px;
@@ -73,13 +86,16 @@
   margin-right: 15px;
 }
 
-.header__navigation-links_right > li {
+.header__navigation-links_right > li,
+.header__navigation_social-links > li {
   margin-left: 15px;
 }
 
-.header__navigation-links_left > li:hover,
-.header__navigation-links_right > li:hover {
-  color: black;
-  cursor: pointer;
-  transition: color 0.1s ease-in;
+.header__navigation_social-links > li > svg {
+  width: 30px;
+  height: 30px;
+}
+
+.header__navigation_social-links {
+  margin-top: 20px;
 }
