@@ -1,10 +1,10 @@
 import React from 'react';
 import './header.css';
-import logo from '../../images/ufo.png'
+import logo from '../../images/12.svg'
 
 const Header = () => {
   return (
-    <div className="header">
+    <section className="header">
       <div className="header__title-container">
         <input
           className="header__input_search"
@@ -67,7 +67,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

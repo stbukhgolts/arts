@@ -1,5 +1,6 @@
 .main {
   background-color: #fff;
+  max-width: 1900px;
   width: 100vw;
   height: 100vh;
   display: flex;
