@@ -1,13 +1,11 @@
 .header {
   width: 100%;
-  padding: 0 90px;
-  font-family: 'Courier New', Courier, monospace;
+  padding: 40px 90px;
 }
 
 .header__title-container {
   display: flex;
   justify-content: space-between;
-  padding: 40px 0 0;
   color: var(--font-color);
 }
 
@@ -23,17 +21,11 @@
 }
 
 .header__navigation-container {
-  display: flex;
   padding-top: 10px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
-
-}
-
-.header__navigation-links_left {
-  /* width: 350px; */
-  /* flex-wrap: wrap; */
 }
 
 .header__navigation-links_right,
@@ -41,39 +33,38 @@
   justify-content: flex-end;
 }
 
-/* .header__logo {
-  display: block;
-  height: 100%;
-  object-fit: cover;
-  object-position: bottom;
-  transform: scale(1);
-} */
+.header__logo {
+  height: 200px;
+}
 
-.header__navigation{
+.header__navigation {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  max-width: 200px;
-  transition: color 0.4s ease-in;
+  width: 200px;
+  transition: color 570ms ease-in-out;
 }
 
 .header__navigation:hover {
+  fill:rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.3);
-  transition: color .35s ease-in-out;
-  transition: fill .35s ease-in-out;
-  fill:rgba(0, 0, 0, 0.3)
+  transition: color 570ms ease-in-out, fill 570ms ease-in-out;
 }
 
-.header__navigation_social-links > li:hover,
-.header__navigation-links_left > li:hover,
-.header__navigation-links_right > li:hover {
-  fill:black;
-  color: black;
+.header__navigation_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.header__navigation > li:hover {
   cursor: pointer;
-  transition: color 0.1s ease-in;
-  transition: fill 0.1s ease-in;
+  color: black;
+  fill:black;
+  transition: color 0.1s ease-in, fill 0.1s ease-in;
 }
 
 .header__navigation > li {
@@ -91,11 +82,12 @@
   margin-left: 15px;
 }
 
+/* .header__navigation-links_right > li:first-child,
+.header__navigation_social-links > li:first-child {
+  margin-left: 0;
+} */
+
 .header__navigation_social-links > li > svg {
   width: 30px;
   height: 30px;
-}
-
-.header__navigation_social-links {
-  margin-top: 20px;
 }

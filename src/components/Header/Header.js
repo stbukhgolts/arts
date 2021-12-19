@@ -1,8 +1,6 @@
 import React from 'react';
 import './header.css';
-// import logo from '../../images/ufo.png'
-import instagram from '../../images/instagram.svg';
-import facebook from '../../images/facebook.svg';
+import logo from '../../images/ufo.png'
 
 const Header = () => {
   return (
@@ -24,10 +22,10 @@ const Header = () => {
           <li>ИСТОРИЯ</li>
           <li>КЛУБ</li>
         </ul>
-        {/* 
+  
         <img className="header__logo" src={logo} alt=""/>
-         */}
-        <p>HHHHHHHHHHHHHHHHHHHHHHHHHHH</p>
+         
+
 
         <div className="header__navigation_right">
           <ul className="header__navigation header__navigation-links_right">
