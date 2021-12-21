@@ -11,10 +11,7 @@ const Slider2 = () => {
     img3
   ]
 
-  // if 0, then class - active
   const [activeIndex, setActiveIndex] = useState(0);
-  const prevIndex = activeIndex ? activeIndex - 1 : img.length - 1;
-  const nextIndex = activeIndex === img.length - 1 ? 0 : activeIndex + 1;
 
   useEffect(() => {
     setInterval(() => {
@@ -27,9 +24,9 @@ const Slider2 = () => {
 
   return (
     <section className="slider">
-      <img className={`slider__image ${prevIndex ? '' : 'animation'}`} src={img[1]} alt=""/>
-      <img className={`slider__image ${activeIndex ? '' : 'animation'}`} src={img[0]} alt=""/>
-      <img className={`slider__image ${nextIndex ? '' : 'animation'}`} src={img[2]} alt=""/>
+      <img className={`slider__image ${activeIndex === 0 ? 'animation' :'' }`} src={img[0]} alt=""/>
+      <img className={`slider__image ${activeIndex === 1 ? 'animation' :'' }`} src={img[1]} alt=""/>
+      <img className={`slider__image ${activeIndex === 2 ? 'animation' :'' }`} src={img[2]} alt=""/>
     </section>
   )
 }
