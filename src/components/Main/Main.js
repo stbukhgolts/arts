@@ -7,6 +7,7 @@ import './main.css'
 const Main = () => {
   return (
     <div className="main">
+    
       <Header />
       <Video />
       <Featured />

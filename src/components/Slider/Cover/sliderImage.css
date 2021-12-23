@@ -1,0 +1,50 @@
+.slider__image {
+  position: absolute;
+  opacity: 0;
+  transition: all 3s ease-in;
+}
+
+.fix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.image {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 70%;
+  width: 100%;
+  opacity: 0;
+  transition: 1.5s ease;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,0.4766281512605042) 0%, rgba(35,35,235,0.2413340336134454) 33%, rgba(255,255,255,0) 100%);
+
+}
+
+.slider:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.animation {
+  transition: all 3s ease-in;
+  opacity: 1;
+}
