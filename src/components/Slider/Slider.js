@@ -8,11 +8,11 @@ import SliderImage from './Cover/SliderImage';
 const Slider = () => {
   let img = [
     {img:img3,
-      text: '777777'},
+      text: 'Петр Дзен'},
     {img:img2,
-      text: 'fsss'},
+      text: 'Повстанец Аравийский'},
       {img:img1,
-        text: 'aaaaa'},
+        text: 'Энди Воурхоул'},
 
   ]
 

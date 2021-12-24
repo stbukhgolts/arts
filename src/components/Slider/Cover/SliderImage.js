@@ -3,25 +3,18 @@ import './sliderImage.css';
 
 const SliderImage = ({ activeIndex, img, i }) => {
   return (
-    <div className={`slider__image ${activeIndex === i ? 'animation' : ''}`}>
-      <div className="fix">
-        <img src={img.img} className="image" alt="painting" />
+    <div className={`slider__image-container ${activeIndex === i ? 'active' : ''}`}>
 
-        <div className="overlay">
-          <div className="text">
+        <img src={img.img} className="slider__image" alt="painting" />
+
+        <div className="slider__image-overlay">
+          <p className="text">
             <a href="">{img.text}</a>
-          </div>
+          </p>
         </div>
-      </div>
+
     </div>
   );
 };
 
 export default SliderImage;
-
-// <div key={`df${i}`} className={`slider__container ${activeIndex === i ? 'animation' : '' }`}>
-// <img key={i} className={`slider__image ${activeIndex === i ? 'animation' : '' }`} src={img.img} alt=""/>
-// <div key={`d${i}`} className='slider__overlay'>
-//   <p key={`p${i}`} >{img.text}</p>
-// </div>
-// </div>
