@@ -8,6 +8,7 @@ const Featured = () => {
       <div className="featured__container">
         <div className="featured__left">
         <h1>Рекомендуемое</h1>
+          
           <Slider />
 
           <div className="featured__text-container">
