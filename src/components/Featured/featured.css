@@ -1,8 +1,31 @@
 .featured {
   width: 100%;
-  padding: 40px 340px;
+  padding: 40px 40px;
+  border: yellowgreen 1px solid;
 }
 
+
 .featured__container {
-  height: 1000px;
+  margin: auto;
+  width: 66.66%;
+  display: flex;
+  border: rgb(103, 87, 121) 2px dotted;
+}
+
+.featured__left {
+  width: 50%;
+}
+
+.featured__right {
+  width: 50%;
+  border: 1px solid palegoldenrod;
+  background-color: rgba(209, 221, 240, 0.397);
+}
+
+.featured__text-container button {
+  display: block;
+}
+
+.featured__text-container button:first-of-type {
+  width: 100%;
 }

@@ -1,6 +1,6 @@
 .slider {
-  width: 350px;
-  height: 350px;
+  min-width: 100%;
+  min-height: 350px;
   overflow: hidden;
   display: flex;
   align-items: center;
