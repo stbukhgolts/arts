@@ -14,16 +14,15 @@ const Featured = () => {
           <div className="featured__text-container">
             <h2>Название</h2>
             <p>
-              A new portfolio of five original prints by Willard Boepple,
-              Stephen Chambers, Nigel Hall, Peter Randall-Page and Alison
-              Wilding.
+              A new portfolio of three original prints by Petr Dzen,
+              Povstanec Aravijskij and Andy Warhol.
             </p>
             <p>
               The ‘folio is being released for sale at an initial price of
-              £1,200 making it an unprecedented opportunity to acquire a
+              100 000 RUR making it an unprecedented opportunity to acquire a
               selection of fine prints by leading contemporary artists.
             </p>
-            <button type="button" className="fullwidth">
+            <button type="button">
               <a href="./">Click here for more information</a>
             </button>
             <button type="button">

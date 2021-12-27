@@ -1,31 +1,81 @@
 .featured {
   width: 100%;
-  padding: 40px 40px;
-  border: yellowgreen 1px solid;
+  padding: 100px 60px;
 }
-
 
 .featured__container {
   margin: auto;
   width: 66.66%;
   display: flex;
-  border: rgb(103, 87, 121) 2px dotted;
 }
 
 .featured__left {
-  width: 50%;
+  width: 62.5%;
+}
+
+.featured__left > h1 {
+  margin: 0;
+  letter-spacing: .15em;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding-bottom: 80px;
 }
 
 .featured__right {
-  width: 50%;
-  border: 1px solid palegoldenrod;
+  width: 37.5%;
   background-color: rgba(209, 221, 240, 0.397);
 }
 
-.featured__text-container button {
-  display: block;
+.featured__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.featured__text-container button:first-of-type {
+.featured__text-container h2 {
+  margin: 0;
+  letter-spacing: .15em;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5em;
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.featured__text-container p {
+  letter-spacing: .1em;
+  font-size: 15px;
+  font-weight: 300;
+  color:rgba(0, 0, 0, 0.8)
+}
+
+
+.featured__text-container button {
+  padding: 0;
+  background-color: transparent;
+  outline: 2px solid #1d1d1d;
+  border: none;
+  letter-spacing: .1em;
+  margin: 17px 0;
+  transition: background-color 100ms linear, color 100ms linear;
+}
+
+.featured__text-container button:hover,
+.featured__text-container button:hover a:visited,
+.featured__text-container button:hover a:visited {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+.featured__text-container button a:visited,
+.featured__text-container button a {
+  padding: 13px 26px;
+  display: block;
+  height: 100%;
   width: 100%;
+  text-decoration: none;
+  color: #1d1d1d;
 }

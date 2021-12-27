@@ -1,7 +1,6 @@
 .slider {
   position: relative;
-  min-width: 100%;
-  min-height: 350px;
+  min-height: 360px;
   overflow: hidden;
   display: flex;
   align-items: center;
