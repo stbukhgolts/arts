@@ -1,34 +1,31 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './display.scss'
+import ImgCarousel from '../ImgCarousel/ImgCarousel'
+import img1 from '../../images/random.png' 
+import img2 from '../../images/random2.jpg' 
+import img3 from '../../images/flowers.png' 
+import img4 from '../../images/wierd.jpg' 
+import ImgComponent from '../ImgCarousel/ImgComponent/ImgComponent'
 
+const Display = () => {
+  let displayArr = [
+    <ImgComponent src={img1} artistName="Andy" workName='N1' price='99 000 RUB'/>,
+    <ImgComponent src={img2} artistName="Randy" workName='2N2' price='99 000 RUB' />,
+    <ImgComponent src={img3} artistName="Shmandy" workName='trmendous33' price='99 000 RUB' />,
+    <ImgComponent src={img4} artistName="Tuendi" workName='454' price='99 000 RUB' />,
+  ]
 
-const Display = ({ displayArr }) => {
-
+  let displayArr2 = [
+    <ImgComponent src={img3} artistName="Shmandy" workName='trmendous333' price='99 000 RUB' />,
+    <ImgComponent src={img4} artistName="Tuendi" workName='454' price='99 000 RUB' />,
+  ]
   
-
-  const [x, setX] = useState(0)
-  const goLeft = () => {
-    x === 0 ? setX(0) : setX(x + 200)
-  }
-  const goRight = () => {
-    x === -200 * (displayArr.length / 2 - 1) ? setX(-200 * (displayArr.length / 2 - 1)) : setX(x - 200)
-  }
-
   return (
-    <section className='display'>
-      {
-        displayArr?.map((item, index) => {
-          return (
-            <div key={index} className='slide' style={{transform:`translateX(${x}%)`}}>
-              {item}
-
-            </div>
-          )
-        })
-      }
-      <button id="goLeft" onClick={goLeft}>left</button>
-      <button id="goRight" onClick={goRight}>right</button>
-    </section>
+    <div className='display'>
+      <h2>Новые поступления</h2>
+      <ImgCarousel displayArr={displayArr} />
+      <ImgCarousel displayArr={displayArr2}/>
+    </div>
   )
 }
 

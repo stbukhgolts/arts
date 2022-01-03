@@ -1,10 +1,12 @@
 import React from 'react'
 
-const ImgComponent = ({src}) => {
+const ImgComponent = ({src, artistName, workName, price}) => {
   return (
     <>
       <img className="display-image" src={src} alt="slide-img" />    
-      <p>ffffuckkkk</p>
+      <p>{artistName}</p>
+      <p>{workName}</p>
+      <p>{price}</p>
     </>
   )
 }
