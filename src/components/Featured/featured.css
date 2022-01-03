@@ -1,6 +1,7 @@
 .featured {
   width: 100%;
   padding: 100px 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 .featured__container {

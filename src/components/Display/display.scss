@@ -1,0 +1,56 @@
+
+
+
+
+.display {
+  padding: 145px 0;
+  width: 66.6%;
+  min-height: 590px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  overflow: hidden;
+  background: rgba(233, 231, 231, 0.24);
+  i{
+    font-size: 2vw;
+  }
+}
+
+.display .slide {
+  min-width: 50%;
+  height: 300px;
+  transition: .5s;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  // background-color: blue;
+}
+
+%btn-styles {
+  position: absolute;
+  top: 50px;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 10%;
+  background: none;
+  border: none;
+  outline: none;
+  transition: .5s;
+  &:hover {
+    background: rgba(0, 0, 0, 0.055);
+    cursor: pointer;
+    
+    color: blanchedalmond;
+    
+  }
+}
+
+#goLeft {
+  right: 70px;
+  @extend %btn-styles;
+}
+
+#goRight {
+  right: 0;
+  @extend %btn-styles;
+}
