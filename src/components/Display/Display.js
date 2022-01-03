@@ -21,6 +21,7 @@ const Display = ({ displayArr }) => {
           return (
             <div key={index} className='slide' style={{transform:`translateX(${x}%)`}}>
               {item}
+
             </div>
           )
         })
