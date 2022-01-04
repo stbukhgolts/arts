@@ -1,13 +1,13 @@
 .carousel {
   margin: auto;
   padding: 15px 0 0 0;
+}
+
+.carousel__slides {
   display: flex;
   align-items: flex-start;
   position: relative;
   overflow: hidden;
-  i{
-    font-size: 2vw;
-  }
 
   .slide {
     padding: 15px;
@@ -24,30 +24,31 @@
   }
 }
 
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
 
 %btn-styles {
-  position: absolute;
-  top: 50px;
-  transform: translateY(-50%);
-  width: 10%;
-  height: 10%;
+
+  font-size: 35px;
+  width: 30px;
+  height: auto;
   background: none;
   border: none;
   outline: none;
   transition: .5s;
   &:hover {
-    background: rgba(0, 0, 0, 0.055);
     cursor: pointer;
-    color: blanchedalmond;
   }
 }
 
-#goLeft {
-  right: 70px;
+.goLeft {
+
   @extend %btn-styles;
 }
 
-#goRight {
-  right: 0;
+.goRight {
+    margin-right: 20px;
   @extend %btn-styles;
 }

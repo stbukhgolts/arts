@@ -22,7 +22,7 @@ const Display = () => {
   
   return (
     <div className='display'>
-      <h2>Новые поступления</h2>
+      <h3>Новые поступления</h3>
       <ImgCarousel displayArr={displayArr} />
       <ImgCarousel displayArr={displayArr2}/>
     </div>
