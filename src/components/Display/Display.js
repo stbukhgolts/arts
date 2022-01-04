@@ -9,8 +9,8 @@ import ImgComponent from '../ImgCarousel/ImgComponent/ImgComponent'
 
 const Display = () => {
   let displayArr = [
-    <ImgComponent src={img1} artistName="Andy" workName='N1' price='99 000 RUB'/>,
-    <ImgComponent src={img2} artistName="Randy" workName='2N2' price='99 000 RUB' />,
+    <ImgComponent src={img1} artistName="Andy" workName='N1 (1944)' price='99 000 RUB'/>,
+    <ImgComponent src={img2} artistName="Randy" workName='2N2 (2012)' price='99 000 RUB' />,
     <ImgComponent src={img3} artistName="Shmandy" workName='trmendous33' price='99 000 RUB' />,
     <ImgComponent src={img4} artistName="Tuendi" workName='454' price='99 000 RUB' />,
   ]
@@ -23,6 +23,7 @@ const Display = () => {
   return (
     <div className='display'>
       <h3>Новые поступления</h3>
+
       <ImgCarousel displayArr={displayArr} />
       <ImgCarousel displayArr={displayArr2}/>
     </div>

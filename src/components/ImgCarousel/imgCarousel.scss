@@ -17,6 +17,7 @@
     flex-direction: column;
     text-align: center;
     overflow: hidden;
+    
   
     p {
       font-size: 14px;
@@ -30,7 +31,6 @@
 }
 
 %btn-styles {
-
   font-size: 35px;
   width: 30px;
   height: auto;
@@ -44,11 +44,10 @@
 }
 
 .goLeft {
-
   @extend %btn-styles;
 }
 
 .goRight {
-    margin-right: 20px;
+  margin-right: 20px;
   @extend %btn-styles;
 }

@@ -1,5 +1,29 @@
 .display-image {
   width: 100%;
   height: auto;
+  margin-bottom: 10px;
 }
 
+.slide p {
+  margin: 6px 0;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+.slide a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.slide .artist-name,
+.slide .price {
+  font-weight: 700;
+}
+
+.slide .work-name {
+  font-style: italic;
+}
+
+.slide .price {
+
+}
