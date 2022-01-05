@@ -5,6 +5,7 @@ import Video from '../Video/Video'
 import './main.css'
 import '../../vendor/fonts.css'
 import Display from '../Display/Display'
+import Further from '../Further/Further'
 
 
 const Main = () => {
@@ -17,6 +18,7 @@ const Main = () => {
       <Video />
       <Featured />
       <Display />
+      <Further />
     </div>
   )
 }

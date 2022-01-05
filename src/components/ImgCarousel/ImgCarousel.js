@@ -12,9 +12,6 @@ const ImgCarousel = ({ displayArr }) => {
       : setX(x - 200);
   };
 
-
-
-
   return (
     <section className="carousel">
       <div className="buttons">
