@@ -78,8 +78,7 @@
   margin-right: 15px;
 }
 
-.header__navigation-links_right > li,
-.social-links li {
+.header__navigation-links_right > li {
   margin-left: 15px;
 }
 
