@@ -1,8 +1,21 @@
 .article {
   width: 50.5%;
+  padding: 15px;
+  
 
   .atricle__image {  
     width: 100%;
     height: auto;
+  }
+
+  h3 {
+    letter-spacing: .2em;
+  }
+
+  p {
+    letter-spacing: .15em;
+    font-size: 15px;
+    font-weight: 300;
+    color:rgba(0, 0, 0, 0.8)
   }
 }

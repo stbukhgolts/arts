@@ -6,6 +6,7 @@ import './main.css'
 import '../../vendor/fonts.css'
 import Display from '../Display/Display'
 import Further from '../Further/Further'
+import Footer from '../Footer/Footer'
 
 
 const Main = () => {
@@ -19,6 +20,7 @@ const Main = () => {
       <Featured />
       <Display />
       <Further />
+      <Footer />
     </div>
   )
 }

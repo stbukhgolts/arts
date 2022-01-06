@@ -1,6 +1,11 @@
 .further {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 35px 0 100px 0;
+}
+
+.further__container {
   display: flex;
+  margin: auto;
   justify-content: center;
   width: 66.6%;
-  margin: auto;
 }
