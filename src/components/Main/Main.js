@@ -21,6 +21,7 @@ const Main = () => {
       <Display />
       <Further />
       <Footer />
+      
     </div>
   )
 }

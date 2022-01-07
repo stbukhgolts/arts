@@ -15,6 +15,7 @@ const Subscribe = () => {
             <Button text='Подписаться'/>
           </div>
         </form>
+        <p>Мы уважаем вашу конфиденцциальность</p>
       </div>
     </section>
   )

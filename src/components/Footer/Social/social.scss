@@ -1,6 +1,5 @@
 .social {
   padding: 150px 0;
-
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 
@@ -24,6 +23,7 @@
       border-bottom: rgba(0, 0, 0, 0.4) 1px solid;
       margin-bottom: 10px;
       a{
+        color:rgba(0, 0, 0, 0.63);
         &:hover {
         fill: rgba(0, 0, 0, 0.3);
         color: rgba(0, 0, 0, 0.3);
