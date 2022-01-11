@@ -1,12 +1,9 @@
 import React from 'react'
-import Featured from '../Featured/Featured'
 import Header from '../Header/Header'
-import Video from '../Video/Video'
 import './main.css'
 import '../../vendor/fonts.css'
-import Display from '../Display/Display'
-import Further from '../Further/Further'
 import Footer from '../Footer/Footer'
+import { Outlet, Route, Routes } from 'react-router-dom'
 
 
 const Main = () => {
@@ -16,12 +13,11 @@ const Main = () => {
     <div className="main">
 
       <Header />
-      <Video />
-      <Featured />
-      <Display />
-      <Further />
-      <Footer />
+
+      <Outlet />
       
+      <Footer />
+
     </div>
   )
 }

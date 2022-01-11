@@ -1,4 +1,45 @@
 .App {
-  display: flex;
-  justify-content: center;
+  background-color: #fff;
+  max-width: 1680px;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  margin: auto;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.15em;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+h2, h3 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: .1em;
 }

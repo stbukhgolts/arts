@@ -48,7 +48,8 @@
   transition: color 570ms ease-in-out;
 }
 
-.header__navigation:hover {
+.header__navigation:hover,
+.header__navigation:hover .header__navigation a {
   fill:rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.3);
   transition: color 570ms ease-in-out, fill 570ms ease-in-out;
@@ -61,14 +62,16 @@
   height: 100px;
 }
 
-.header__navigation li:hover {
+.header__navigation li:hover,
+.header__navigation a:hover {
   cursor: pointer;
   color: black;
   fill:black;
   transition: color 0.1s ease-in, fill 0.1s ease-in;
 }
 
-.header__navigation li {
+.header__navigation li,
+.header__navigation a:hover {
   font-size: 14px;
   white-space: nowrap;
   margin-top: 10px;
