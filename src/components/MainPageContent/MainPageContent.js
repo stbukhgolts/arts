@@ -11,7 +11,6 @@ const MainPageContent = () => {
       <Featured />
       <Display />
       <Further />
-
     </>
   );
 };

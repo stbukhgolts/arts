@@ -48,8 +48,8 @@
   transition: color 570ms ease-in-out;
 }
 
-.header__navigation:hover,
-.header__navigation:hover .header__navigation a {
+.header__navigation:hover a,
+.header__navigation:hover {
   fill:rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.3);
   transition: color 570ms ease-in-out, fill 570ms ease-in-out;
