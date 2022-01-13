@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './imgComponent.css'
 
 const ImgComponent = ({src, artistName, workName, price}) => {
@@ -13,7 +14,9 @@ const ImgComponent = ({src, artistName, workName, price}) => {
       <p className='artist-name'>{artistName}</p>
     </a>
     
-      <p className='work-name'>{workName}</p>
+      <Link to='artists/333' >
+        <p className='work-name'>{workName}</p>
+      </Link>
       <p className='price'>{price}</p>
     </>
   )

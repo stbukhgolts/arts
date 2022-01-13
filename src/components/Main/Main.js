@@ -3,7 +3,7 @@ import Header from '../Header/Header'
 import './main.css'
 import '../../vendor/fonts.css'
 import Footer from '../Footer/Footer'
-import { Outlet, Route, Routes } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 
 
 const Main = () => {
@@ -15,7 +15,7 @@ const Main = () => {
       <Header />
 
       <Outlet />
-      
+
       <Footer />
 
     </div>
