@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/arts/static/css/main.f58ae010.chunk.css",
-    "main.js": "/arts/static/js/main.a31de76a.chunk.js",
-    "main.js.map": "/arts/static/js/main.a31de76a.chunk.js.map",
-    "runtime-main.js": "/arts/static/js/runtime-main.ae51d5d9.js",
-    "runtime-main.js.map": "/arts/static/js/runtime-main.ae51d5d9.js.map",
-    "static/js/2.f468d3f9.chunk.js": "/arts/static/js/2.f468d3f9.chunk.js",
-    "static/js/2.f468d3f9.chunk.js.map": "/arts/static/js/2.f468d3f9.chunk.js.map",
-    "index.html": "/arts/index.html",
-    "static/css/main.f58ae010.chunk.css.map": "/arts/static/css/main.f58ae010.chunk.css.map",
-    "static/js/2.f468d3f9.chunk.js.LICENSE.txt": "/arts/static/js/2.f468d3f9.chunk.js.LICENSE.txt",
-    "static/media/12.cca5a63c.svg": "/arts/static/media/12.cca5a63c.svg",
-    "static/media/fonts.css": "/arts/static/media/Raleway-Regular.a9338128.ttf",
-    "static/media/flowers.31bd721a.png": "/arts/static/media/flowers.31bd721a.png",
-    "static/media/random.f32d8a7b.png": "/arts/static/media/random.f32d8a7b.png",
-    "static/media/random2.45bc1abf.jpg": "/arts/static/media/random2.45bc1abf.jpg",
-    "static/media/ufo.00e247b2.png": "/arts/static/media/ufo.00e247b2.png",
-    "static/media/wierd.883bc4e3.jpg": "/arts/static/media/wierd.883bc4e3.jpg"
+    "main.css": "/static/css/main.398edfc1.chunk.css",
+    "main.js": "/static/js/main.346e31c9.chunk.js",
+    "main.js.map": "/static/js/main.346e31c9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2a10424e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2a10424e.js.map",
+    "static/js/2.5df5211e.chunk.js": "/static/js/2.5df5211e.chunk.js",
+    "static/js/2.5df5211e.chunk.js.map": "/static/js/2.5df5211e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.398edfc1.chunk.css.map": "/static/css/main.398edfc1.chunk.css.map",
+    "static/js/2.5df5211e.chunk.js.LICENSE.txt": "/static/js/2.5df5211e.chunk.js.LICENSE.txt",
+    "static/media/12.cca5a63c.svg": "/static/media/12.cca5a63c.svg",
+    "static/media/fonts.css": "/static/media/Raleway-Regular.a9338128.ttf",
+    "static/media/flowers.31bd721a.png": "/static/media/flowers.31bd721a.png",
+    "static/media/random.f32d8a7b.png": "/static/media/random.f32d8a7b.png",
+    "static/media/random2.45bc1abf.jpg": "/static/media/random2.45bc1abf.jpg",
+    "static/media/ufo.00e247b2.png": "/static/media/ufo.00e247b2.png",
+    "static/media/wierd.883bc4e3.jpg": "/static/media/wierd.883bc4e3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae51d5d9.js",
-    "static/js/2.f468d3f9.chunk.js",
-    "static/css/main.f58ae010.chunk.css",
-    "static/js/main.a31de76a.chunk.js"
+    "static/js/runtime-main.2a10424e.js",
+    "static/js/2.5df5211e.chunk.js",
+    "static/css/main.398edfc1.chunk.css",
+    "static/js/main.346e31c9.chunk.js"
   ]
 }
