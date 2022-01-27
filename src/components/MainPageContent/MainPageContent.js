@@ -10,7 +10,7 @@ const MainPageContent = () => {
       <Video />
       <Featured />
       <Display />
-      <Further />
+      {/* <Further /> */}
     </>
   );
 };
